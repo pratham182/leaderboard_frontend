@@ -41,7 +41,7 @@ const ClaimPoints = ({ users }) => {
       {error && <p className="text-red-500">{error}</p>}
       <button
         onClick={handleClaimPoints}
-        className={`bg-green-500 text-white p-2 rounded-md w-full ${loading && 'opacity-50'}`}
+        className={`bg-blue-500 text-white p-2 rounded-md w-full ${loading && 'opacity-50'}`}
         disabled={loading}
       >
         {loading ? 'Claiming...' : 'Claim Points'}
